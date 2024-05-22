@@ -1,72 +1,44 @@
-___________________________//Strings
-let str="Abubakar Rasheed";
+___________________________//Arrays
+let marks= [45,66,34,12,89];
+console.log(marks);
+console.log(marks.length);  //property
+console.log(marks[0]);// to access single item
 
-str.length;    //will tell length
+marks[0]=50;        // to change value
+console.log(marks);
 
-console.log(str[0]); //access A
+__________________________//Loop on arrays
+let marks= [45,66,34,12,89];
+for(let i=0;i<marks.length;i++){    //for loop
+    console.log(marks[i]);
+}
 
+//For of is more preferable
+let marks=[22,1,3,4,5,44,3];
+for(let m of marks){
+    console.log(m);
+}
 
+__________________________________//Practice Questions
+//i) Average marks
+let marks=[85,97,44,37,76,60];
+let sum=0;
+for(let m of marks){
+   sum= sum+m;
+}
+let average=sum/6;
+   console.log(average);
 
-__________________________//Template Literals
+   //ii) prices 10% off
 
-let sentence=`This is a sentence`;
-console.log(sentence);
+   let prices=[250, 645,300 , 900 ,50];
 
-//Why we use this
+   for(let i=0;i<prices.length;i++){
+       let offer=prices[i]/10;
+       prices[i]-=offer;
+   }
+   console.log(prices);
+   
+   
+     
 
-let obj={
-    name:"AB",
-    age:24
-};
-
-console.log("My name is ", obj.name 
-,"And age is ",obj.age); //This is not readable
-
-let output=`My name is ${obj.name} and age is ${obj.age}`;
-console.log(output);
-//This is more readable
-//This is called string interpolation
-
-
-
-_________________________//Ecape sequence
-// /n next line
-// /t tab
-console.log("AbuBakar \n Rasheed");
-
-
-______________________________//STRINGS Methods
-//ToUpperCase()
-
-let str="Abubakar";
-str=str.toUpperCase();
-console.log(str);
-
-//ToUpperCase()
-let str="ABUBAKAR";
-str=str.toLowerCase();
-console.log(str);
-
-//str.trim() -->it remove whitespaces from end and start
-
-let str="     Abu bakar in Js  ";
-console.log(str.trim());
-
-//str.slice  -->it cut parts
-
-let str="01234567";
-console.log(str.slice(0,6));
-
-//str.concate()
-
-let str1="Abubakar";
-let str2="G";
-
-let res= str1 + str2 ;
-console.log(res);
-
-
-____________________________//Practice Question
-// prompt("Enter Your name=");
-let str= prompt("Enter Your Full name =");
-console.log("Your username is = " + "@" + str + str.length);
