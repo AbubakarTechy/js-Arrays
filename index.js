@@ -39,6 +39,63 @@ let average=sum/6;
    }
    console.log(prices);
    
-   
-     
+___________________________________________________________________________________________
+ ____________________________________//Array Methods
+ 
+ //PUSH () --->add itmes on end
 
+ let foodItems=["potato" , "apple" , "tomato"];
+ foodItems.push("chips");
+ console.log(foodItems);
+
+ //POP() -----> delete and return
+
+  foodItems.pop();
+  console.log(foodItems);   
+
+ //toString()
+ 
+ let foodItem=["potato" , "apple" , "tomato"];
+ console.log(foodItem.toString());
+
+//Concate() --->Join multiple arrays
+
+let alpha=["A" ,"B" , "C" , "D"];
+let num=["1" , "2" , "3" ,"4"];
+
+let res=alpha.concat(num);
+console.log(res);
+
+//Unshift() ---> add to start
+
+let food=["potato" , "apple" , "tomato"];
+food.unshift("chips");
+console.log(food);
+
+
+//shift()  -----> delete from start
+let hero=["srk" ,"salman"];
+hero.shift();
+console.log(hero);
+
+//Slice()----->  return a piece of array
+
+let uni=["UCP","UMT","UOL","UON"];
+console.log(uni.slice(1));
+
+//Splice --->  add, remove , dlete
+let name=["bkr", "ali" , "ch" , "hamza","Tony"];
+console.log(name.splice(0,2));
+
+_____________________________________________________________________________________________
+//Practice Question
+let com=["Bloomberg" , "microsoft" ,"Uber" , "Google" , "IBM" , "Netflix"];
+
+com.shift("Bloomberg");
+console.log(com);
+
+com.splice(2,1,"Ola");
+console.log(com);
+
+com.push("Amazon");
+console.log(com);
