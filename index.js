@@ -1,4 +1,4 @@
-________________________//Arrays
+________________________//Arrays in js
 let marks= [45,66,34,12,89];
 console.log(marks);
 console.log(marks.length);  //property
