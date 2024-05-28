@@ -88,7 +88,7 @@ let name=["bkr", "ali" , "ch" , "hamza","Tony"];
 console.log(name.splice(0,2));
 
 _____________________________________________________________________________________________
-//Practice Question
+//Practice Question   ----> use shift, splice , push
 let com=["Bloomberg" , "microsoft" ,"Uber" , "Google" , "IBM" , "Netflix"];
 
 com.shift("Bloomberg");
