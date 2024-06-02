@@ -5,6 +5,7 @@ console.log(marks);
 console.log(marks.length);  //property
 console.log(marks[0]);// to access single item
 
+
 marks[0]=50;        // to change value
 console.log(marks);
 
@@ -41,7 +42,7 @@ let average=sum/6;
    console.log(prices);
    
 ___________________________________________________________________________________________
- ____________________________________//Array Methods
+ ________________________________//Array Methods
  
  //PUSH () --->add itmes on end
 
