@@ -5,6 +5,7 @@ console.log(marks);
 
 console.log(marks.length);  //property
 
+
 console.log(marks[0]);// to access single item
 
 
