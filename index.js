@@ -13,6 +13,7 @@ marks[0]=50;        // to change value
 console.log(marks);
 
 __________________________//Loop on arrays
+
 let marks= [45,66,34,12,89];
 for(let i=0;i<marks.length;i++){    //for loop
     console.log(marks[i]);
