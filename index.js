@@ -32,6 +32,7 @@ let sum=0;
 for(let m of marks){
    sum= sum+m;
 }
+
 let average=sum/6;
    console.log(average);
 
