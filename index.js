@@ -95,6 +95,7 @@ console.log(name.splice(0,2));
 
 _____________________________________________________________________________________________
 
+
 //Practice Question   ----> use shift, splice , push
 let com=["Bloomberg" , "microsoft" ,"Uber" , "Google" , "IBM" , "Netflix"];
 
